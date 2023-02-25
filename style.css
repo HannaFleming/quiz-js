@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1576444356170-66073046b1bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    justify-content:center;
+
+}
+h1{
+display: flex;
+justify-content: center;
+}
+form{
+    background-color: #fff;
+    width: 500px;
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+label{
+    display:flex;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    color: crimson;
+
+}
+.question{
+    padding: 20px;
+
+}
+#btn{
+    background-color: cornflowerblue;
+    color: #fff;
+    width:100%;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    }
+
+    #btn:hover {
+        background-color: aquamarine;
+        color: black;
+    }
+    input{
+    margin-left: 20px;
+    }
+
+    #show{
+        margin: auto;
+        margin-top:10px;
+        }
+
+@media all and (max-width:800px){
+form{
+font-size: 20px;
+}
+}
+@media all and (max-width:500px){
+    form{
+        font-size: 10px;
+    }
+}
